@@ -204,6 +204,10 @@ export GREP_COLOR='1;31' # green for matches
 unset LANG
 export LC_ALL=POSIX
 
+# pbcopy, pbpaste
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
+
 ## ------------------------------
 ## -- 3) User-customized code  --
 ## ------------------------------
