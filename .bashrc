@@ -208,6 +208,10 @@ export LC_ALL=POSIX
 alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
 
+# source git files
+source git-completion.bash
+source git-prompt.bash
+
 ## ------------------------------
 ## -- 3) User-customized code  --
 ## ------------------------------
